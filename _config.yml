@@ -1,0 +1,159 @@
+repository: gtavares7/gtavares.github.io
+favicon: images/favicon.ico
+
+version: 2
+
+name: Gabriel Tavares
+title: Front-End Developer
+email: gtavares.linux@gmail.com
+website: cv.gabriel-tavares.com
+
+darkmode: true
+
+github_username:  gtavares7
+linkedin_username: gabrieltavares7
+
+summary_profile_image: images/gabriel.png
+summary_content: |
+  Dynamic and dedicated Cybersecurity enthusiast with a recent diploma from McGill University, completed with the help of years of self-directed 
+  learning and exploration in the field. My journey in Cybersecurity began long before formal education, through reading documentation, trial and error, dedication 
+  and driven by a deep passion for understanding the intricacies of information security, ethical hacking, and digital forensics. This self-motivated quest for 
+  knowledge led me to pursue and achieve a formal qualification from one of Canada's premier institutions.
+
+content:
+  - title: Technical Knowledge
+    layout: list
+    content:
+      - layout: left
+        title: Operating Systems
+        description: |
+            Linux (Arch, Manjaro, RedHat, Kali Linux, Parrot OS, BlackArch, Whonix, Qubes OS, Tails), Windows, MacOS
+      - layout: left
+        title: Monitoring Tools
+        description: |
+            Splunk, Wireshark, Auvik
+      - layout: left
+        title: Testing Tools
+        description: |
+            SonarQube, Synk, Burp suite, ZAP
+      - layout: left
+        title: Pen-Testing Tools
+        description: |
+            Metasploit, msfvenom, nmap, aircrack-ng, SQLmap, John the Ripper, Gophish, SEtoolkit, Mimikatz
+      - layout: left
+        title: Infrastructure
+        description: |
+            Docker, LCX/LXD (Linux Container Daemon), VMWare
+      - layout: left
+        title: Cloud
+        quote: >
+          Amazon Web Services
+        description: |
+            Lambda, EC2, VPC, S3, Route53, Cloudfront, Workspaces, Directory Service
+      - layout: left
+        title: Services
+        description: |
+            Active Directory, LDAP, Apache, nginx, haproxy, dhcpd
+      - layout: left
+        title: Coding
+        description: |
+            Bash, Python, React, Groovy, SQL, Solidity
+  
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: McGill University
+        link:
+        caption: January 2020 - December 2022
+        quote: >
+          Applied Cybersecurity
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Plusgrade
+        link: plusgrade.com
+        caption: February 2022 - Present
+        quote: >
+          Integrator - DSE Seating Team
+        description: |
+            - Lead multiple DSB launches for partners (Spirit Airlines, Egyptair, Air Astana, etc).
+            - Deploy numerous new features for partners.
+            - Update upgrade pricing and business rules in the database.
+            - Building partner emails using groovy.
+            - Update partner configurations and front-end styling via JSON files.
+            - Grooming Jira board to prioritize or clean up tickets.
+            - Built bash/python scripts that are used by other ACT members to help with daily tasks (uploading textkeys, debugging partner-tool, passenger email blacklisting, etc). [ACT Bitbucket Repo](https://bitbucket.org/plusgrade/activation/src/master/)
+      
+      - layout: left
+        title: Tavares Consulting
+        link: 
+        caption: July 2019 - April 2021
+        quote: >
+          Cyber Security Consultant
+        description: |
+            - **Risk Assessment:** Conducted thorough cybersecurity assessments to identify vulnerabilities within the business's network, systems, and practices. This includes checking for outdated software, assessing the risk of data breaches, and providing recommendations to mitigate identified risks.
+            - **Secure Office Networks:** Configure the office's network infrastructure with security best practices, including secure Wi-Fi configurations, VLANs for segmenting network traffic, and VPN access for remote employees to ensure secure communications.
+            - **Firewall and Antivirus:** Set up and configured firewall solutions to protect the network's perimeter and install reputable antivirus software on all devices to guard against malware and other malicious threats.
+            - **Active Directory:** Set up and manage Active Directory for managing user accounts and groups, implementing group policies for security settings, and ensuring only authorized users have access to sensitive information and critical systems.
+            - **Backup and Recovery:** Implemented automated backup solutions for critical data and a recovery plan that outlines procedures for data restoration and continuity of operations in the event of a data loss or cyberattack.
+            - **Employee Security Training:** Developed and delivered security awareness training for employees, focusing on recognizing phishing attempts, safe internet practices, and the importance of strong password policies.
+            - **2FA:** Set up two-factor authentication for accessing critical systems and sensitive data, adding an extra layer of security beyond just passwords.
+      - layout: left
+        title: EM Custom Design
+        link: emcustom.design
+        caption: November 2020 - Present
+        quote: >
+          Freelance Software Developer
+        description: |
+            - Developing websites for small businesses, landing pages, portfolios, e-commerce and service booking. 
+            - Android/iOS apps to order products or book service appointments
+            - Internal web apps so business owners can monitor their inventory, sales, customer support tickets, etc.
+      - layout: left
+        title: Apple Canada Inc.
+        link: apple.com
+        caption: November 2011 - July 2019
+        quote: >
+          Sales Expert
+        description: |
+            - Leader in sales, product knowledge, and offering business solutions to customers.
+            - First to learn, inspire and coach my fellow colleagues when new products and initiatives emerged.
+            - Responsible for developing strong and long-lasting relationships with business customers.
+            - Fast paced customer support (hardware, software, troubleshooting)
+  - title: Licenses & Certifications
+    layout: list
+    content:
+      - layout: left
+        title: RHCSA
+        link: https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam
+        caption: Currently studying for exam
+        quote: >
+          Red Hat Certified System Administrator
+      - layout: left
+        title: Apple Canada Inc.
+        caption: Issued June 2015 - No expiry
+        quote: >
+          Certified Macintosh Technician (ACMT)
+
+footer_show_references: true
+references_title: References on request
+
+remote_theme: gtavares7/gtavares.github.io
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+#plugins:
+#   - jekyll-seo-tag:
+#       exclude:
+#         - "Gemfile"
+#         - "Gemfile.lock"
+#         - "node_modules"
+#         - "vendor/bundle/"
+#         - "vendor/cache/"
+#         - "vendor/gems/"
+#         - "vendor/ruby/"
+#         - "lib/"
