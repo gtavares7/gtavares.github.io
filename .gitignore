@@ -9,6 +9,7 @@ _site/
 .sass-cache
 _config2.yml
 *.lock
+extras/
 
 # Compiled Java class files
 *.class
