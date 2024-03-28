@@ -85,7 +85,7 @@ content:
             - Building partner emails using groovy.
             - Update partner configurations and front-end styling via JSON files.
             - Grooming Jira board to prioritize or clean up tickets.
-            - Built bash/python scripts that are used by other ACT members to help with daily tasks (uploading textkeys, debugging partner-tool, passenger email blacklisting, etc). [ACT Bitbucket Repo](https://bitbucket.org/plusgrade/activation/src/master/)
+            - Built bash/python scripts that are used by other ACT members to help with daily tasks (uploading textkeys, debugging partner-tool, passenger email blacklisting, etc).
       
       - layout: left
         title: Tavares Consulting
