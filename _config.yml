@@ -82,8 +82,8 @@ content:
             - Monitor Google Workspace for suspicious activity, enforce security policies, and resolve incidents.
             - Analyze code repositories for vulnerabilities and patch the bugs.
             - Distribute and track completion of security awareness training for engineering teams.
-            - Implement and maintain security best practices in AWS, including IAM policy management and compliance monitoring.
             - Research and communicate updates on the latest cybersecurity threats.
+            - Implement and maintain security best practices in AWS, including IAM policy management and compliance monitoring.
 
       - layout: left
         title: Plusgrade
