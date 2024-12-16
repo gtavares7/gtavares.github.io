@@ -4,7 +4,7 @@ favicon: images/favicon.ico
 version: 2
 
 name: Gabriel Tavares
-title: Front-End Developer
+title: Cyber Security Engineer
 email: gtavares.linux@gmail.com
 website: cv.gabriel-tavares.com
 
@@ -75,11 +75,24 @@ content:
       - layout: left
         title: Plusgrade
         link: plusgrade.com
+        caption: June 2024 - Present
+        quote: >
+          Cyber Security Engineer
+        description: |
+            - Monitor Google Workspace for suspicious activity, enforce security policies, and resolve incidents.
+            - Analyze code repositories for vulnerabilities and patch the bugs.
+            - Distribute and track completion of security awareness training for engineering teams.
+            - Implement and maintain security best practices in AWS, including IAM policy management and compliance monitoring.
+            - Research and communicate updates on the latest cybersecurity threats.
+
+      - layout: left
+        title: Plusgrade
+        link: plusgrade.com
         caption: February 2022 - Present
         quote: >
           Integrator - DSE Seating Team
         description: |
-            - Lead multiple DSB launches for partners (Spirit Airlines, Egyptair, Air Astana, etc).
+            - Lead multiple feature launches for partners (Spirit Airlines, Egyptair, Air Astana, etc).
             - Deploy numerous new features for partners.
             - Update upgrade pricing and business rules in the database.
             - Building partner emails using groovy.
